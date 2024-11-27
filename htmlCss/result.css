@@ -1,0 +1,14 @@
+body{
+  font-family:'roboto-regular', sans-serif;
+}
+h2{
+  font-size: large;
+}
+a{
+  font-size: larger;
+}
+img{
+  width:100%;
+  height:auto;
+
+}

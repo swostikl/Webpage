@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Roboto;
+    src: url("Roboto-Regular.ttf") format("truetype");
+}
+
+body{
+    background-image: url("bg.jpg");
+    margin-top: 50px;
+}
+.container{
+    width:100%;
+    margin:auto;
+}
+
+header{
+    display: flex;
+}
+
+.logo {
+    color: black;
+    height: 4rem;
+    text-align: center;
+}
+html{
+    font-family: Roboto, sans-serif;
+}
+
+h2{
+    background-color: #d18f9b;
+    color:black;
+    width:25%;
+
+}
+nav{
+    color:pink;
+    width:75%;
+}
+
+ul{
+    display:flex;
+    list-style: none;
+    justify-content: space-evenly;
+    background-color:pink;
+    padding: 0;
+    margin-top:19px;
+    height: 4rem;
+}
+
+li{
+    width:calc(100% / 3);
+}
+
+li a{
+    color:black;
+    width:80%;
+    display:block;
+    text-align: center;
+    line-height: 3rem;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #ea9dab;
+    height: 4rem;
+}
+
+h1{
+    color: black;
+    padding:0;
+    font-size: 8rem;
+}
+
+p{
+    color: black;
+}
+
+
+.section-part img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    height: auto;
+}
+*{
+    box-sizing: border-box;
+}
+
+h3{
+    background-color: #d18f9b;
+    color:black;
+    width:32%;
+    text-align: center;
+    float:left;
+    padding:15px;
+
+}
+
+.product1{
+    float: left;
+    width: 22%;
+    padding: 15px;
+    margin-top: 50px;
+
+}
+.product2{
+    float: left;
+    width:40%;
+    padding: 15px;
+
+}
+.product3{
+    float: left;
+    width: 35%;
+    padding: 15px;
+    margin-top: 50px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+h5 {
+    background-color: #d18f9b;
+    color: black;
+    width: auto;
+    text-align: center;
+    padding: 15px;
+    font-size:xxx-large;
+}
+
+ footer {
+     color: black;
+     width:100%;
+ }
